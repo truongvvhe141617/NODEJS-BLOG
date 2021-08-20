@@ -9,4 +9,4 @@ class NewsController {
         res.send('NEWS DETAILS!!!!');
     }
 }
-module.exports = new NewsController;
+module.exports = new NewsController();
